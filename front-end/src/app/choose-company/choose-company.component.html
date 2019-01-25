@@ -1,0 +1,13 @@
+<p>
+  Proszę wybrać firmę
+</p>
+<ng-select [items]="cities"
+bindLabel="name"
+placeholder="Select city"
+[(ngModel)]="selectedCity">
+</ng-select>
+
+<button (click)="addNextPage()"
+class="ui positive right floated button">
+Submit link
+</button>
